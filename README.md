@@ -4,7 +4,7 @@ Built an CNN model for school students to design their own art work of loitering
 # VGG Neural Network
 VGG16 is a convolutional neural network model proposed by K. Simonyan and A. Zisserman from the University of Oxford in the paper “Very Deep Convolutional Networks for Large-Scale Image Recognition”. The model achieves 92.7% top-5 test accuracy in ImageNet, which is a dataset of over 14 million images belonging to 1000 classes.
 
-
+-VGG16 Architecture
 
 <a href="https://neurohive.io/en/popular-networks/vgg16/"><img src="https://neurohive.io/wp-content/uploads/2018/11/vgg16-neural-network.jpg" title="VGG16 Architecture"></a>
 

@@ -6,7 +6,7 @@ VGG16 is a convolutional neural network model proposed by K. Simonyan and A. Zis
 
 
 ### VGG16 Architecture
-
+###
 <a href="https://neurohive.io/en/popular-networks/vgg16/"><img src="https://neurohive.io/wp-content/uploads/2018/11/vgg16-neural-network.jpg" title="VGG16 Architecture"></a>
 
 #

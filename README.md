@@ -1,5 +1,7 @@
 # NeStEr
 Built an CNN model for school students to design their own art work of loitering around with 2 different pictures and combining them to generate a single master piece. Used VGG Neural Network, NST and tensorflow to build it.
+#
+
 # Neural Style Transfer technique (NST)
 Neural style transfer is an optimization technique used to take two images—a content image and a style reference image (such as an artwork)—and blend them together so the output image looks like the content image, but “painted” in the style of the style reference image.
 

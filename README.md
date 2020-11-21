@@ -28,12 +28,13 @@ The code takes in 2 images as an input and returns a third image which is a blen
 # So here's an example illustrating the same : #
 ###
 <a href="https://www.tensorflow.org/tutorials/generative/style_transfer"><img src="https://www.tensorflow.org/tutorials/generative/style_transfer_files/output__UWQmeEaiKkP_0.png" title="VGG16 Architecture"></a>
-### = 
+### Contant Image + Style Image = Final image 
 
 <a href="https://www.tensorflow.org/tutorials/generative/style_transfer"><img src="https://www.tensorflow.org/tutorials/generative/style_transfer_files/output_iYSLexgRKSh-_0.png" title="VGG16 Architecture"></a>
- ### Final Image 
+Final Image 
 
- 
+I hope you'll enjoy the output of your own pictures executed more than just the example here. So, why wait more? Just follow the code which is already been well explained with comments inside and enjoy!!!!
+
 My motivation for working on this project was driven by the students of my school who face a little difficulty in coming up with "COOL" backgrounds for making posters for varoius events using photoshop!! 
 
 Hope you'll like and appreciate the amazing technique!! :)

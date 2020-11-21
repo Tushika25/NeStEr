@@ -1,6 +1,6 @@
 # NeStEr
 ###
-Built an CNN model for school students to design their own art work of loitering around with 2 different pictures and combining them to generate a single master piece. Used VGG Neural Network, NST and tensorflow to build it.
+This is a project that sees the working of a CNN model that was utilised in large numbers by school students to design their own art work of loitering around with 2 different pictures and combining them to generate a single master piece. Used VGG Neural Network (read more about it below) , NST (read more about it below) and tensorflow to build it.
 #
 # VGG Neural Network
 ###

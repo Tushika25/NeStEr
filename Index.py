@@ -271,9 +271,9 @@ def gram_matrix(A):
     GA -- Gram matrix of A, of shape (n_C, n_C)
     """
     
-    ### START CODE HERE ### (≈1 line)
+    ### STARTED CODE HERE ### (≈1 line)
     GA = tf.matmul(A, A, transpose_b=True)
-    ### END CODE HERE ###
+    ### ENDED CODE HERE ###
     
     return GA
 

@@ -32,6 +32,7 @@ The code takes in 2 images as an input and returns a third image which is a blen
 
 <a href="https://www.tensorflow.org/tutorials/generative/style_transfer"><img src="https://www.tensorflow.org/tutorials/generative/style_transfer_files/output_iYSLexgRKSh-_0.png" title="VGG16 Architecture"></a>
  
+#
 
 I hope you'll enjoy the output of your own pictures executed more than just the example here. So, why wait more? Just follow the code which is already been well explained with comments inside and enjoy!!!!
 

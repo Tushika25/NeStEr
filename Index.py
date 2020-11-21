@@ -224,7 +224,7 @@ def compute_content_cost(a_C, a_G):
     J_content -- scalar that you compute using equation 1 above.
     """
     
-    ### START CODE HERE ###
+    ### STARTED CODE HERE ###
     # Retrieve dimensions from a_G (≈1 line)
     m, n_H, n_W, n_C = a_G.get_shape().as_list()
     
@@ -234,7 +234,7 @@ def compute_content_cost(a_C, a_G):
     
     # compute the cost with tensorflow (≈1 line)
     J_content = 1 / (4 * n_H * n_W * n_C) * tf.reduce_sum((a_C - a_G)**2)
-    ### END CODE HERE ###
+    ### ENDED CODE HERE ###
     
     return J_content
 
@@ -408,9 +408,9 @@ def total_cost(J_content, J_style, alpha = 10, beta = 40):
     J -- total cost as defined by the formula above.
     """
     
-    ### START CODE HERE ### (≈1 line)
+    ### STARTED CODE HERE ### (≈1 line)
     J = alpha * J_content + beta * J_style
-    ### END CODE HERE ###
+    ### ENDED CODE HERE ###
     
     return J
 
@@ -499,9 +499,9 @@ J_style = compute_style_cost(model, STYLE_LAYERS)
 # In[ ]:
 
 
-### START CODE HERE ### (1 line)
+### STARTED CODE HERE ### (1 line)
 J = total_cost(J_content, J_style, alpha=10, beta=40)
-### END CODE HERE ###
+### ENDED CODE HERE ###
 
 
 # In[ ]:
@@ -520,26 +520,26 @@ train_step = optimizer.minimize(J)
 def model_nn(sess, input_image, num_iterations = 200):
     
     # Initialize global variables (you need to run the session on the initializer)
-    ### START CODE HERE ### (1 line)
+    ### STARTED CODE HERE ### (1 line)
     sess.run(tf.global_variables_initializer())
-    ### END CODE HERE ###
+    ### ENDED CODE HERE ###
     
     # Run the noisy input image (initial generated image) through the model. Use assign().
-    ### START CODE HERE ### (1 line)
+    ### STARTED CODE HERE ### (1 line)
     sess.run(model['input'].assign(input_image))
-    ### END CODE HERE ###
+    ### ENDED CODE HERE ###
     
     for i in range(num_iterations):
     
         # Run the session on the train_step to minimize the total cost
-        ### START CODE HERE ### (1 line)
+        ### STARTED CODE HERE ### (1 line)
         sess.run(train_step)
-        ### END CODE HERE ###
+        ### ENDED CODE HERE ###
         
         # Compute the generated image by running the session on the current model['input']
-        ### START CODE HERE ### (1 line)
+        ### STARTED CODE HERE ### (1 line)
         generated_image = sess.run(model['input'])
-        ### END CODE HERE ###
+        ### ENDED CODE HERE ###
 
         # Print every 20 iteration.
         if i%20 == 0:

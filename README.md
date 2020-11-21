@@ -24,7 +24,20 @@ Neural style transfer is an optimization technique used to take two images—a c
 This is implemented by optimizing the output image to match the content statistics of the content image and the style statistics of the style reference image. These statistics are extracted from the images using a convolutional network.
 The code sees the implementation of neural style transfer technique and is one of the best projects I have worked on!!
 The code takes in 2 images as an input and returns a third image which is a blend (combination) of both the input images.
+###
+###
+<a href="https://www.tensorflow.org/tutorials/generative/style_transfer"><img src="https://www.tensorflow.org/tutorials/generative/style_transfer_files/output__UWQmeEaiKkP_0.png" title="VGG16 Architecture"></a>
 
+Content Image
+
+# + #
+<a href="https://www.tensorflow.org/tutorials/generative/style_transfer"><img src="https://www.tensorflow.org/tutorials/generative/style_transfer_files/output__UWQmeEaiKkP_0.png" title="VGG16 Architecture"></a>
+Style Image
+# = #
+
+<a href="https://www.tensorflow.org/tutorials/generative/style_transfer"><img src="https://www.tensorflow.org/tutorials/generative/style_transfer_files/output_iYSLexgRKSh-_0.png" title="VGG16 Architecture"></a>
+ # Final Image 
+ 
 My motivation for working on this project was driven by the students of my school who face a little difficulty in coming up with "COOL" backgrounds for making posters for varoius events using photoshop!! 
 
 Hope you'll like and appreciate the amazing technique!! :)
